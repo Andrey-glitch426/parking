@@ -38,3 +38,6 @@ class ParkingManager:
 
     def tryLeaveWithTicket(self, ticketNumber):
         pass
+
+    def getRemainingCost(self, ticketNumber):
+        pass
