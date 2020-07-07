@@ -36,3 +36,5 @@ class ParkingManager:
         session = ParkingSession(now, carNumber, ticketNumber)
         self.__activeSessions.append(session)
 
+    def tryLeaveWithTicket(self, ticketNumber):
+        pass
